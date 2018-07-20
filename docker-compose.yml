@@ -1,0 +1,4 @@
+nginx-server:
+    container_name: nginx-server
+    build: .
+    net: "host"
